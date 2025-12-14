@@ -1,4 +1,4 @@
-# ACTAS_CNE
+# ACTAS_CNE ELECCIONES 2025 HONDURAS
 
 Colección de actas escaneadas y datos numéricos extraídos del Visor de Resultados del Consejo Nacional Electoral (CNE) de Honduras para las elecciones generales de 2025. La carpeta agrupa las actas por departamento, municipio, área (urbana/rural), centro de votación y Junta Receptora de Votos (JRV), preservando la jerarquía administrativa oficial para que sea sencillo ubicar cada documento.
 
