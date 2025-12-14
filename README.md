@@ -50,18 +50,6 @@ Cada carpeta de JRV puede contener una o varias de las siguientes piezas:
 
 > **Tip GitHub:** este volumen de archivos pesa varios gigabytes. Si vas a publicar todo en un repositorio público, considera Git LFS o dividir el histórico por departamentos para evitar límites de tamaño.
 
-## Cómo se obtuvieron los datos
-
-1. Activar el entorno de Playwright que vive en la raíz del proyecto:
-   ```bash
-   source cne_env/bin/activate
-   ```
-2. Ejecutar los scripts de descarga ubicados en `src/`. El más general es `src/dowload_actas.py`, que recorre el visor `https://elcieloazul.me/VisorActas/VisorActas`. Se puede limitar a un departamento con:
-   ```bash
-   python src/dowload_actas.py --depto-id 12
-   ```
-3. Para departamentos concretos hay auxiliares en `src/code/` (`download_actas_atlantida.py`, `download_choluteca.py`, etc.) y herramientas especializadas como `download_actas_lempira_oll.py` que interactúan con `https://resultadosgenerales2025.cne.hn`.
-4. Cada script abre el visor con Playwright, itera por los filtros de nivel, departamento, municipio, área y centro; descarga la imagen/PDF del acta, además de los datos tabulares, y guarda todo siguiendo la convención explicada arriba.
 
 ## Buenas prácticas al compartir
 
