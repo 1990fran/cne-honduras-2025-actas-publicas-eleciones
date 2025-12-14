@@ -1,0 +1,5 @@
+# No subir actas originales
+*_acta.png
+
+# Permitir solo las anonimizadas
+!*_acta_blur.png
