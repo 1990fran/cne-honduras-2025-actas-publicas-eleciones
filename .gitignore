@@ -1,5 +1,58 @@
 # No subir actas originales
 *_acta.png
+*base64.txt
 
 # Permitir solo las anonimizadas
 !*_acta_blur.png
+actas_para_analisis_original/
+actas_para_analisis/
+actas-reviewer/
+analisis_listas/
+build/
+dist/
+jsons/
+openai-actas/
+revisor_express/
+# ===============================
+# Archivos específicos a ignorar
+# ===============================
+
+actas_a_mano.html
+actas_ocr.html
+imageOpenai.html
+
+actas_cantidad.xlsx
+actas_cantidad_new.xlsx
+actas_cantidad_oll.xlsx
+
+actas_por_acta_una_hoja.xlsx
+actas_por_acta_una_hoja_new.xlsx
+actas_por_acta_una_hoja_new2.xlsx
+
+actas_guardadas.jsonl
+actas_guardadas-OLL.jsonl
+actas_guardadas_oll-2.jsonl
+
+crop_preview.png
+
+# ===============================
+# Notebooks (análisis / pruebas)
+# ===============================
+actas_openai_count.ipynb
+actas_to_images.ipynb
+actas_to_zip.ipynb
+jsonl_tojson.ipynb
+NIVEL_CADA_ACTA.ipynb
+recortar_imagenes.ipynb
+
+# ===============================
+# Scripts auxiliares
+# ===============================
+copy_actas.py
+copy_json_candidatos.py
+download_actas_faltantes.py
+medir_recorte.py
+preprocess_actas.py
+remap_candidatos_folder.py
+revisor_actas.py
+revisor_actas.spec
